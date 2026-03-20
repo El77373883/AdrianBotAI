@@ -1,0 +1,12 @@
+{
+  "name": "mi-bot-discord",
+  "version": "2.0.0",
+  "description": "Bot de Discord con IA para servidor de Minecraft",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.0.0"
+  }
+}
