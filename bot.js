@@ -15,7 +15,7 @@ const client = new Client({
 // ⚙️  CONFIGURACIÓN — EDITA CON TUS DATOS
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 const CONFIG = {
-  token: "MTQ4NDU5NzgyMjU0MzEwNjA5OA.Gst4ee.sE6AZKPW-kr3HuU8gOYn0vArLYJuaUvM85OcrM",
+  token: process.env.TOKEN,
 
   canalBienvenida: "ID_CANAL_BIENVENIDA",
   canalReglas:     "ID_CANAL_REGLAS",
